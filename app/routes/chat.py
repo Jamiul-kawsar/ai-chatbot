@@ -23,3 +23,7 @@ def chat(request: ChatRequest):
 @router.get("/history")
 def history():
     return chat_service.get_history()
+
+@router.get("/health")
+def health():
+    return {"status": "healthy"}

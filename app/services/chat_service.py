@@ -1,4 +1,4 @@
-from asyncio.log import logger
+from app.logger import logger
 
 from app.services.memory import ConversationMemory
 from app.services.llm_service import LLMService

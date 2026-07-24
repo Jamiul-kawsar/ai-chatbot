@@ -1,4 +1,25 @@
+# Python
 .venv/
 __pycache__/
-.env
 *.pyc
+
+# Environment
+.env
+
+# Logs
+*.log
+
+# Conversation history
+conversation_history.json
+
+# Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Vite
+.vite/
+
+# OS
+.DS_Store
+Thumbs.db
